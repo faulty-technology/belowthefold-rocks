@@ -17,7 +17,7 @@ spec:
           - $values/helm/values-production.yaml
         parameters:
           - name: ingress.host
-            value: belowtheofold.rocks
+            value: belowthefold.rocks
     - repoURL: https://github.com/faulty-technology/belowthefold-rocks.git
       targetRevision: main
       ref: values

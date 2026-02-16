@@ -1,5 +1,3 @@
-# subnet-cheat-sheet
+# belowthefold-rocks
 
-https://subnet.faulty.technology
-# belowthefold-rocks
-# belowthefold-rocks
+https://belowthefold.rocks

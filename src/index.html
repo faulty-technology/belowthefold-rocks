@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Below the fold, rocks!</title>
+		<style>
+			:root {
+				--bg-color: #1e1e1e;
+			}
+			@media (prefers-color-scheme: light) {
+				:root {
+					--bg-color: #e2e2e2;
+				}
+			}
+			html,
+			body {
+				margin: 0;
+			}
+			.the-fold {
+				height: 100vh;
+				background-color: var(--bg-color);
+			}
+			.the-rocks {
+				height: 100vh;
+			}
+			.the-rocks img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		</style>
+	</head>
+
+	<body>
+		<main>
+			<div class="the-fold"></div>
+			<div class="the-rocks">
+				<img
+					alt="picture of rocks below the fold of the web page"
+					src="/rocks.webp"
+				/>
+			</div>
+		</main>
+	</body>
+</html>

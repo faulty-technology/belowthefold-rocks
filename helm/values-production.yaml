@@ -1,5 +1,5 @@
 # =============================================================================
-# subnet-cheat-sheet - Production Environment Overrides
+# belowthefold-rocks - Production Environment Overrides
 # =============================================================================
 # These values override values-defaults.yaml for production deployments.
 # Only specify fields that differ from the defaults.

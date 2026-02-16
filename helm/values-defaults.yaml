@@ -1,7 +1,7 @@
 # =============================================================================
-# subnet-cheat-sheet - Project-specific base values
+# belowthefold-rocks - Project-specific base values
 # =============================================================================
-# Base configuration for the subnet-cheat-sheet static site.
+# Base configuration for the belowthefold-rocks static site.
 #
 # Values layering order:
 #   1. chart values.yaml (chart defaults)
@@ -9,10 +9,10 @@
 #   3. helm/values-{environment}.yaml (environment overrides)
 # =============================================================================
 
-name: subnet-cheat-sheet
+name: belowthefold-rocks
 
 container:
-  image: ghcr.io/faulty-technology/subnet-cheat-sheet
+  image: ghcr.io/faulty-technology/belowthefold-rocks
   tag: latest
   port: 8080
   expose: true

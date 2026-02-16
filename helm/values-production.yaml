@@ -10,7 +10,7 @@
 replicas: 1
 
 container:
-  tag: sha-a6ee9751a7ffd377a511f590c5d1ca051f9d26f3
+  tag: sha-7c468117660050559cbf43caee056ce126297b7e
 
 resourceQuota:
   enabled: false

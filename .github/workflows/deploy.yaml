@@ -12,7 +12,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  APP_NAME: subnet-cheat-sheet
+  APP_NAME: belowthefold-rocks
 
 jobs:
   build:
@@ -32,7 +32,7 @@ jobs:
         with:
           image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           app-name: ${{ env.APP_NAME }}
-          app-description: "IPv4 Subnet Cheat Sheet"
+          app-description: "Below the fold, rocks!"
           registry: ${{ env.REGISTRY }}
           registry-username: ${{ github.actor }}
           registry-password: ${{ secrets.GITHUB_TOKEN }}

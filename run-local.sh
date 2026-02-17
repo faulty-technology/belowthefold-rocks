@@ -1,1 +1,1 @@
-podman run --network=host -v ./src:/usr/share/nginx/html:ro,Z nginxinc/nginx-unprivileged:alpine
+podman build -t belowthefold-rocks:local . && podman run --rm --network=host belowthefold-rocks:local
